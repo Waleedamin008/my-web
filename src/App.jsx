@@ -312,13 +312,13 @@ function AppContent() {
                 </div>
               </div>
 
-              {/* Interactive Birthday Button */}
+              {/* Interactive Birthday Button
               <button
                 onClick={handleCelebrateMore}
                 className="bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white font-bold py-4 px-8 rounded-full text-xl shadow-lg transform hover:scale-105 transition-all duration-300 animate-pulse"
               >
                 🎊 Celebrate More! 🎊
-              </button>
+              </button> */}
 
               {/* Birthday Wishes */}
               <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl">
