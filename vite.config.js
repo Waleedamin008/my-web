@@ -6,5 +6,5 @@ export default defineConfig({
   plugins: [
     tailwindcss()
   ],
-  base: process.env.VITE_BASE_URL || '/my-web',
+  base: process.env.VITE_BASE_PATH || '/my-web',
 })
