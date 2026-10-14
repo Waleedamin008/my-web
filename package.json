@@ -7,8 +7,8 @@
     "node": ">=18"
   },
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "dev": "node api.js && vite",
+    "build": "node api.js && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
